@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		24F59C63268B14E4001C7FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F59C62268B14E4001C7FDD /* AppDelegate.swift */; };
 		24F59C65268B14E4001C7FDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F59C64268B14E4001C7FDD /* SceneDelegate.swift */; };
-		24F59C67268B14E4001C7FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F59C66268B14E4001C7FDD /* ViewController.swift */; };
+		24F59C67268B14E4001C7FDD /* FirstPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F59C66268B14E4001C7FDD /* FirstPageController.swift */; };
 		24F59C6A268B14E4001C7FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F59C68268B14E4001C7FDD /* Main.storyboard */; };
 		24F59C6D268B14E4001C7FDD /* LadoTsivtsivadze_42.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24F59C6B268B14E4001C7FDD /* LadoTsivtsivadze_42.xcdatamodeld */; };
 		24F59C6F268B14E5001C7FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F59C6E268B14E5001C7FDD /* Assets.xcassets */; };
 		24F59C72268B14E5001C7FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F59C70268B14E5001C7FDD /* LaunchScreen.storyboard */; };
+		24F59C7C268B1AAD001C7FDD /* SecondPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F59C7B268B1AAD001C7FDD /* SecondPageController.swift */; };
+		24F59C7E268B2DD0001C7FDD /* navController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F59C7D268B2DD0001C7FDD /* navController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24F59C5F268B14E4001C7FDD /* LadoTsivtsivadze_42.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LadoTsivtsivadze_42.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F59C62268B14E4001C7FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24F59C64268B14E4001C7FDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		24F59C66268B14E4001C7FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24F59C66268B14E4001C7FDD /* FirstPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageController.swift; sourceTree = "<group>"; };
 		24F59C69268B14E4001C7FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24F59C6C268B14E4001C7FDD /* LadoTsivtsivadze_42.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LadoTsivtsivadze_42.xcdatamodel; sourceTree = "<group>"; };
 		24F59C6E268B14E5001C7FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24F59C71268B14E5001C7FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24F59C73268B14E5001C7FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F59C7B268B1AAD001C7FDD /* SecondPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageController.swift; sourceTree = "<group>"; };
+		24F59C7D268B2DD0001C7FDD /* navController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,15 @@
 		24F59C61268B14E4001C7FDD /* LadoTsivtsivadze_42 */ = {
 			isa = PBXGroup;
 			children = (
-				24F59C79268B14FD001C7FDD /* App */,
-				24F59C66268B14E4001C7FDD /* ViewController.swift */,
-				24F59C68268B14E4001C7FDD /* Main.storyboard */,
 				24F59C7A268B150E001C7FDD /* Resources */,
+				24F59C79268B14FD001C7FDD /* App */,
+				24F59C66268B14E4001C7FDD /* FirstPageController.swift */,
+				24F59C68268B14E4001C7FDD /* Main.storyboard */,
 				24F59C70268B14E5001C7FDD /* LaunchScreen.storyboard */,
 				24F59C73268B14E5001C7FDD /* Info.plist */,
 				24F59C6B268B14E4001C7FDD /* LadoTsivtsivadze_42.xcdatamodeld */,
+				24F59C7B268B1AAD001C7FDD /* SecondPageController.swift */,
+				24F59C7D268B2DD0001C7FDD /* navController.swift */,
 			);
 			path = LadoTsivtsivadze_42;
 			sourceTree = "<group>";
@@ -156,8 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F59C67268B14E4001C7FDD /* ViewController.swift in Sources */,
+				24F59C7C268B1AAD001C7FDD /* SecondPageController.swift in Sources */,
+				24F59C67268B14E4001C7FDD /* FirstPageController.swift in Sources */,
 				24F59C63268B14E4001C7FDD /* AppDelegate.swift in Sources */,
+				24F59C7E268B2DD0001C7FDD /* navController.swift in Sources */,
 				24F59C6D268B14E4001C7FDD /* LadoTsivtsivadze_42.xcdatamodeld in Sources */,
 				24F59C65268B14E4001C7FDD /* SceneDelegate.swift in Sources */,
 			);
