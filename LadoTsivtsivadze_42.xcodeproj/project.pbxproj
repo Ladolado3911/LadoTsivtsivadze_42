@@ -58,16 +58,32 @@
 		24F59C61268B14E4001C7FDD /* LadoTsivtsivadze_42 */ = {
 			isa = PBXGroup;
 			children = (
-				24F59C62268B14E4001C7FDD /* AppDelegate.swift */,
-				24F59C64268B14E4001C7FDD /* SceneDelegate.swift */,
+				24F59C79268B14FD001C7FDD /* App */,
 				24F59C66268B14E4001C7FDD /* ViewController.swift */,
 				24F59C68268B14E4001C7FDD /* Main.storyboard */,
-				24F59C6E268B14E5001C7FDD /* Assets.xcassets */,
+				24F59C7A268B150E001C7FDD /* Resources */,
 				24F59C70268B14E5001C7FDD /* LaunchScreen.storyboard */,
 				24F59C73268B14E5001C7FDD /* Info.plist */,
 				24F59C6B268B14E4001C7FDD /* LadoTsivtsivadze_42.xcdatamodeld */,
 			);
 			path = LadoTsivtsivadze_42;
+			sourceTree = "<group>";
+		};
+		24F59C79268B14FD001C7FDD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				24F59C62268B14E4001C7FDD /* AppDelegate.swift */,
+				24F59C64268B14E4001C7FDD /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		24F59C7A268B150E001C7FDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24F59C6E268B14E5001C7FDD /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
